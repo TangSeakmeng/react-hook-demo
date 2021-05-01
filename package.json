@@ -2,20 +2,40 @@
   "name": "complete-react-boilerplate",
   "version": "0.1.0",
   "private": true,
+  "license": "UNLICENSED",
   "dependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "autoprefixer": "^10.2.5",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "eslint-loader": "^4.0.2",
+    "mini-css-extract-plugin": "^1.5.0",
+    "postcss-loader": "^5.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "scss-loader": "^0.0.1",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.2.0",
+    "tsconfig-paths-webpack-plugin": "^3.5.1",
+    "web-vitals": "^1.0.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "develop": "webpack serve --env NODE_ENV=development --mode development"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +54,26 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "@types/node": "^14.14.41",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "eslint": "7.2.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "7.21.5",
+    "eslint-plugin-react-hooks": "1.7.0",
+    "file-loader": "^6.2.0",
+    "prettier": "^2.2.1",
+    "sass": "^1.32.11",
+    "sass-loader": "^10.1.1",
+    "typescript": "^4.2.4",
+    "webpack": "^4.44.2"
   }
 }
